@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><title>MorseCode</title><link rel="stylesheet" href="styles/main.css"/></head>
+<body><div id="app">
+  <header class="topbar"><span class="logo">📡 MorseCode</span></header>
+  <div class="main">
+    <div class="mode-row">
+      <label><input type="radio" name="mode" value="encode" checked/> Text → Morse</label>
+      <label><input type="radio" name="mode" value="decode"/> Morse → Text</label>
+    </div>
+    <div class="io-row">
+      <div class="io-col"><div class="pane-label">Input</div><textarea id="input-text" placeholder="Type here…"></textarea></div>
+      <div class="io-col"><div class="pane-label">Output <button id="btn-copy" class="small-btn">Copy</button></div><textarea id="output-text" readonly></textarea></div>
+    </div>
+    <div class="controls-row">
+      <button id="btn-play" class="btn-primary">▶ Play Audio</button>
+      <button id="btn-clear">Clear</button>
+      <label>Freq: <input type="range" id="freq-slider" min="300" max="1200" value="700"/> <span id="freq-val">700Hz</span></label>
+    </div>
+    <div class="ref-section"><div class="ref-title">Reference</div><div id="morse-ref" class="morse-ref"></div></div>
+  </div>
+</div>
+<script src="src/morse.js"></script><script src="src/audio.js"></script><script src="src/app.js"></script></body></html>

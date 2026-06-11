@@ -1,0 +1,22 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#1e1e2e;--surface:#252535;--border:#3a3a5a;--text:#cdd6f4;--accent:#4a90d9}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;min-height:100vh}
+.topbar{height:44px;display:flex;align-items:center;padding:0 16px;background:var(--surface);border-bottom:1px solid var(--border)}
+.logo{font-weight:800;color:var(--accent);font-size:16px}
+.main{max-width:900px;margin:20px auto;padding:0 16px;display:flex;flex-direction:column;gap:14px}
+.mode-row{display:flex;gap:20px;font-size:14px}
+.mode-row label{display:flex;align-items:center;gap:6px;cursor:pointer}
+.io-row{display:flex;gap:12px}
+.io-col{flex:1;display:flex;flex-direction:column}
+.pane-label{padding:5px 10px;background:var(--surface);font-size:11px;font-weight:700;color:#888;border:1px solid var(--border);border-bottom:none;border-radius:6px 6px 0 0;display:flex;align-items:center;justify-content:space-between}
+.small-btn{padding:2px 8px;border-radius:4px;border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer;font-size:11px}
+textarea{height:150px;resize:none;border:1px solid var(--border);outline:none;background:#13131f;color:#abb2bf;font-family:monospace;font-size:13px;padding:10px;line-height:1.7;border-radius:0 0 6px 6px}
+.controls-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.controls-row button{padding:7px 16px;border-radius:7px;border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer;font-size:13px}
+.btn-primary{background:var(--accent)!important;color:#fff!important;font-weight:700}
+.controls-row label{font-size:13px;display:flex;align-items:center;gap:8px}
+.ref-title{font-size:12px;font-weight:700;color:#888;margin-bottom:8px}
+.morse-ref{display:grid;grid-template-columns:repeat(auto-fill,minmax(60px,1fr));gap:6px}
+.ref-cell{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 8px;text-align:center}
+.ref-char{display:block;font-weight:700;font-size:14px;color:#fff}
+.ref-code{display:block;font-family:monospace;font-size:11px;color:#888;margin-top:2px;letter-spacing:2px}
