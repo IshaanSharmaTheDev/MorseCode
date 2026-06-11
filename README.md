@@ -1,3 +1,7 @@
+## 🚀 Live Demo: [MorseCode](https://ishaansharmathedev.github.io/MorseCode/)
+
+> Try it in your browser: **[https://ishaansharmathedev.github.io/MorseCode/](https://ishaansharmathedev.github.io/MorseCode/)**
+
 # MorseCode
 
 A Morse code encoder/decoder with audio playback, adjustable tone frequency, and a full reference chart.
