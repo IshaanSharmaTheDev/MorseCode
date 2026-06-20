@@ -1,3 +1,4 @@
+So I have always been really interested in Morse code, and I have always really wanted to decode and import information into Morse code because, to me, it was very cool. Like in movies, we used to do, "Save Me," write in Morse code, and I also knew that earlier people also used Morse code. This was a really really hard project to do, but I still did it. It took a bit of research and a bit of coding, but I was finally able to do it. Find how to set it up, written by AI, below. 
 ## 🚀 Live Demo: [MorseCode](https://ishaansharmathedev.github.io/MorseCode/)
 
 > Try it in your browser: **[https://ishaansharmathedev.github.io/MorseCode/](https://ishaansharmathedev.github.io/MorseCode/)**
